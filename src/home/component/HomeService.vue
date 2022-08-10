@@ -19,12 +19,14 @@
                         </div>
                         <p class="fs-5 mt-2 text-red text-start fw-bold">{{ item.price }}</p>
                         <a class="service-btn" :href="item.path">
+                        <router-link  :to="{name: 'email'}">
                             <el-button type="primary">
                                 Xem chi tiết
                                 <el-icon class="ms-2">
                                     <DArrowRight />
                                 </el-icon>
                             </el-button>
+                        </router-link>
                         </a>
                     </div>
                 </div>
