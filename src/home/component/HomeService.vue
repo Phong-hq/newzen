@@ -4,7 +4,7 @@
             <Slide v-for="item in serviceList" :key="item.code">
                 <div class="carousel__item">
                     <div class="w-100 py-4 d-flex flex-center">
-                        <img :src="'../../' + item.image" />
+                        <img :src="'../../../' + item.image" />
                     </div>
                     <div class="content pb-5 d-flex flex-column justify-content-start">
                         <p class="fs-4 fw-bold text-start">{{ item.name }}</p>
@@ -44,6 +44,8 @@ import '@/assets/scss/home/home-service.scss'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import { ArrowRight, DArrowRight } from '@element-plus/icons-vue'
 import { ref } from 'vue';
+
+// import Service1 from '../../../public'
 
 // create value
 const settings = ref({

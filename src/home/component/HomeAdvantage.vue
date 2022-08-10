@@ -6,7 +6,7 @@
                 v-for="item in advantageList"
                 :key="item.id"
             >
-                <img class="advantage-image my-3" :src="'../../' + item.image" />
+                <img class="advantage-image my-3" :src="'../../../' + item.image" />
                 <p class="line-1 fs-4 text-center fw-bold">{{ item.title }}</p>
                 <p class="line-2 fs-6 text-center">{{ item.content }}</p>
             </div>
