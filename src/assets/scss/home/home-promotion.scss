@@ -1,0 +1,41 @@
+.promotion {
+    height: 800px;
+    background-image: url(../../public/images/home-promotion-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .logo-white {
+        width: 490px;
+        height: 76px;
+    }
+    button {
+        // background-color: #0DD4D4;
+        width: 160px;
+        height: 50px;
+        span{
+            color: #fff;
+        }
+        // &:hover {
+        //     color: #fff;
+        // }
+    }
+    .division {
+        height: 100%;
+        width: 0.5px;
+        background-color: #fff;
+        color: #fff;
+        margin: 0 20px;
+    }
+    span{
+        color: #fff;
+    }
+    @media (max-width: 576px) {
+        .logo-white {
+        width: 204px;
+        height: 30px;
+        }
+        .px-5{
+            padding: 0 1.5rem !important;
+        }
+    }
+}

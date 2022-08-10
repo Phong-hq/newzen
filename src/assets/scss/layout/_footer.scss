@@ -1,0 +1,60 @@
+.footer{
+    .footer-infomation{
+        p{
+            font-size: 18px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+    
+            &:hover{
+                text-decoration: underline;
+                color: #000;
+                background-color: transparent;
+            }
+        }
+        .logo{
+            width: 270px;
+            height: 42px;
+        }
+        .dash{
+            width: 53px;
+            height: 1px;
+            background-color: #000;
+        }
+    }
+    .footer-contact{
+        width: 100%;
+        background-color: #666666;
+        .pe-5{
+            padding-right: 10% !important;
+        }
+        .icon{
+            width: 18px;
+            height: 18px;
+        }
+        .pay{
+            img{
+                width: 45px;
+                height: 30px;
+            }
+            a{
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        background-color: #0dd4d4;
+    }
+    @media (max-width: 576px) {
+        .footer-infomation{
+
+            .logo{
+                width: 158px;
+                height: 24px;
+            }
+        }
+    }
+}

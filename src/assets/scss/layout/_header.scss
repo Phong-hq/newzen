@@ -1,0 +1,47 @@
+.header{
+    height: 90px;
+    // background-color: aqua;
+    .logo{
+        width: 270px;
+        height: 42px;
+    }
+    .search{
+        input{
+            border-radius: 8px;
+            height: 30px;
+            width: 190px;
+            font-size: 14px;
+            &:focus{
+                box-shadow: none;
+            }
+            &::placeholder{
+                color: #CACACA;
+            }
+        }
+    }
+    .hotline{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    @media (max-width: 992px) {
+        // flex-wrap: wrap;
+        // justify-content: center;
+        button{
+            border: none;
+            background-color: transparent ;
+            height: 40px;
+        }
+        .logo{
+            margin: 0;
+        }
+    }
+    @media (max-width: 576px) {
+        background-color: #E8eaf0;
+        .logo{
+            width: 156px;
+            height: 24px;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+
+p,h6, h5, h4, h3, h2, h1, label, span, input{
+    // font-family: 'Poppins, Helvetica', sans-serif !important;
+    font-family: 'Fahkwang', sans-serif  !important;
+    color: #2f2f2f;
+    // line-height: 1.5;
+}
+p{
+    font-size: 14px;
+}
+a, span, div{
+    font-family: 'Fahkwang', sans-serif  !important;
+}
+a:hover{
+    background-color: transparent !important;
+}
+input:not([type="checkbox"]) ,textarea{
+    font-family: 'Poppins, Helvetica', sans-serif;
+    max-height: inherit !important;
+    // border: none !important;
+    background-color: #f5f8fa !important;
+    &:focus,
+    &:active {
+      border-color: #409eff !important;
+      border: solid 1px #409eff;
+      box-shadow: none;
+    }
+    &::placeholder{
+        color: #BABABA;
+    }
+}
+.text-gray{
+    color: #707070;
+}
+.text-red{
+    color: #C71E1E;
+}
+.w-50{
+    width: 48% !important;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.fs-sm{
+    font-size: 14px;
+}
+.lh-15{
+    line-height: 1.5;
+}
+.fs-18{
+    font-size: 18px;
+}
+@media (min-width: 1400px){
+.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1600px;
+    }
+}
+table {
+    th{
+        font-size: 16px !important;
+    }
+    td{
+        font-size: 15px !important;
+    }
+}
+.aside.aside-hoverable{
+    @media (max-width: 990px) {
+        width: 290px  !important;
+    }
+}
+.v-number{
+    width: 100%;
+    border: solid 1px #dcdfe6 !important;
+    padding: 0 15px;
+    &:active, &:focus{
+      border-color: #409eff !important;
+      outline: none;
+    }
+  }
+  .swal2-loader{
+      width: 4rem !important;
+      height: 4rem !important;
+  }
+  #app{
+    padding: 0 !important;
+    width: 100%;
+    // background-color: #409eff;
+}
+.ps-6{
+    padding-left: 1.5rem  !important;
+}
+.ps-8{
+    padding-left: 2rem  !important;
+}
+
+ma-0{
+    margin: 0 !important;
+}

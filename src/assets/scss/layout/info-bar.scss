@@ -1,0 +1,38 @@
+.info-bar{
+    height: 60px;
+    background-color: #e8eaf0;
+    .badge{
+        font-weight: 400;
+        cursor: pointer;
+        &:hover{
+            background-color: #0DD4D4 !important;
+            color: #fff !important;
+            transition: 0.02s;
+        }
+    }
+    .modal-content{
+        background-color: transparent;
+    }
+    .info-bar-modal{
+        background-color: transparent;
+        .circle{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #0dd4d4;
+        }
+        .card-header{
+            width: 350px;
+            background-color: #1b6cef;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+        a{
+            color: #0dd4d4;
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+}
