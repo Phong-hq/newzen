@@ -22,6 +22,7 @@
             <HomeAdvantageComponent></HomeAdvantageComponent>
         </div>
         <div class="promotion position-relative d-flex justify-content-center align-items-end">
+            <img class="banner-img" src="../../public/images/home-promotion-bg.png" alt="">
             <HomePromotionComponent></HomePromotionComponent>
 
         </div>
