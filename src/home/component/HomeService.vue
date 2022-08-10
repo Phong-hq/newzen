@@ -4,7 +4,7 @@
             <Slide v-for="item in serviceList" :key="item.code">
                 <div class="carousel__item">
                     <div class="w-100 py-4 d-flex flex-center">
-                        <img :src="'../../../' + item.image" />
+                        <img src="../../../public/images/home-service-1.png" />
                     </div>
                     <div class="content pb-5 d-flex flex-column justify-content-start">
                         <p class="fs-4 fw-bold text-start">{{ item.name }}</p>
