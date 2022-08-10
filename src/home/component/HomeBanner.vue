@@ -1,5 +1,6 @@
 <template>
     <div class="banner posittion-relative">
+        <img class="banner-img-2" src="../../../public/images/banner.png" alt="">
         <div class="banner-block d-flex align-items-sm-center align-items-start">
             <div
                 class="hosting-carousel container d-flex flex-column align-items-lg-start align-items-sm-center"
