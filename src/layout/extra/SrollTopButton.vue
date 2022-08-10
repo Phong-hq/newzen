@@ -1,6 +1,6 @@
 <template>
      <div class="scroll-to-top">
-          <el-button v-if="showBtn" class="px-1 py-3" type="primary" @click="scrollToMyEl()">
+          <el-button v-if="showBtn" class="px-1 py-3" type="primary">
                <svg
                     fill="none"
                     viewBox="0 0 24 24"
@@ -68,12 +68,12 @@ const smoothScroll = inject('smoothScroll')
 
 
 // create METHODS
-const scrollToMyEl = () => {
-     smoothScroll({
-          scrollTo: 0,
-          hash: '',
-          duration: 500,
-          updateHistory: true,
-     })
-}
+// const scrollToMyEl = () => {
+//      smoothScroll({
+//           scrollTo: 0,
+//           hash: '',
+//           duration: 500,
+//           updateHistory: true,
+//      })
+// }
 </script>

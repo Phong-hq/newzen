@@ -52,7 +52,7 @@ onMounted(() => {
     typeActive.value.id = typeList.value[0].id
 })
 // create value
-const typeList = ref<Array<ITypeList>>([])
+const typeList = ref<any>([])
 const typeActive = ref({
     id: -1,
 })

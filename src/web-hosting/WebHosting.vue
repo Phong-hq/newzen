@@ -112,7 +112,7 @@ const percentDiscount = ref(0)
 const key1 = ref(0);
 const key2 = ref(0);
 const key3 = ref(0);
-const breadcrumbList = ref<Array<IBreadcrumb>>([
+const breadcrumbList = ref<any>([
     { path: "/", name: 'Trang chủ' },
     { path: "/web-hosting", name: 'Host - Hosting - Web Hosting' },
     { path: "", name: '' },

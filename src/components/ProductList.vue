@@ -17,7 +17,7 @@
                             v-for="(item2, i) in item.infomation"
                             :key="i"
                         >
-                            <img src="../../../public/images/home-service-check.png" />
+                            <img src="../../public/images/home-service-check.png" />
                             <p class="fs-6 lh-1 ms-2 mb-0 text-start">{{ item2.title }}</p>
                         </div>
                         <p
@@ -58,7 +58,7 @@ onMounted(() => {
     productList.value = props.productList
 })
 // create value
-const productList = ref<Array<IDataList>>([])
+const productList = ref<any>([])
 
 
 // create function

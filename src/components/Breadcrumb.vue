@@ -29,6 +29,6 @@ onMounted(() => {
     breadcrumbList.value = props.dataList
 })
 
-const breadcrumbList = ref<Array<IBreadcrumb>>([
+const breadcrumbList = ref<any>([
 ])
 </script>

@@ -8,7 +8,7 @@
                     v-for="item in featureList"
                     :key="item.id"
                 >
-                    <img class="image my-3" :src="'../../' + item.image" alt />
+                    <img class="image my-3" :src="'../../' + item.image" />
                     <p class="fs-4 mb-2 fw-bold text-center">{{ item.title }}</p>
                     <p class="fs-4 text-center">{{ item.content }}</p>
                 </div>

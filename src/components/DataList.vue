@@ -39,7 +39,7 @@ onMounted(() => {
     dataActive.value.id = dataList.value[0].id
 })
 // create value
-const dataList = ref<Array<IDataList>>([])
+const dataList = ref<any>([])
 const dataActive = ref({
     id: -1
 })

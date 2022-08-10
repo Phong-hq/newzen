@@ -1,7 +1,7 @@
 <template>
     <Header></Header>
     <InfoBar></InfoBar>
-    <ScrollTopBtn></ScrollTopBtn>
+    <!-- <ScrollTopBtn></ScrollTopBtn> -->
     <div class="page-render">
         <router-view></router-view>
     </div>
@@ -14,5 +14,5 @@
     import Header from "@/layout/header/Header.vue";
     import Footer from "@/layout/footer/Footer.vue";
     import InfoBar from "@/layout/header/InfoBar.vue";
-    import ScrollTopBtn from "@/layout/extra/SrollTopButton.vue";
+    // import ScrollTopBtn from "@/layout/extra/SrollTopButton.vue";
 </script>

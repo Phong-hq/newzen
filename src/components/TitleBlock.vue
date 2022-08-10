@@ -1,10 +1,10 @@
 <template>
     <div class="title-block container py-4 d-flex justify-content-center">
-        <img class="double-arrow m-0" src="../../../public/images/home-double-arrow.png" />
+        <img class="double-arrow m-0" src="../../public/images/home-double-arrow.png" />
         <p class="fs-2 mx-4 mb-0 fw-bold text-center">{{title}}</p>
         <img
             class="double-arrow m-0"
-            src="../../../public/images/home-double-arrow.png"
+            src="../../public/images/home-double-arrow.png"
             style="transform: rotate(180deg);"
         />
     </div>

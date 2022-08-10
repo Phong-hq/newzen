@@ -1,6 +1,6 @@
 <template>
                 <div class="mb-5 px-5 d-flex flex-column align-items-center">
-                <img class="logo-white mb-3" src="../../../public/images/logo-white.png" alt />
+                <img class="logo-white mb-3" src="../../../public/images/logo-white.png" />
                 <p
                     class="fs-2 text-white fw-bold text-center"
                 >GIÁNG SINH AN LÀNH - SĂN SALE CÙNG NEWZENCLOUD</p>
